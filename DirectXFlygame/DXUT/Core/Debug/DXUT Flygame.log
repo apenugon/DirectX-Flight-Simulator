@@ -1,0 +1,33 @@
+﻿Build started 1/18/2011 8:35:09 PM.
+     1>Project "D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT11\Core\DXUT Flygame.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\DXUT Flygame.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Visual_Studio_2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\optional\DXUTcamera.cpp ..\optional\DXUTgui.cpp ..\optional\DXUTguiIME.cpp ..\optional\DXUTres.cpp ..\optional\DXUTsettingsdlg.cpp ..\optional\ImeUi.cpp ..\optional\SDKmesh.cpp ..\optional\SDKmisc.cpp ..\optional\SDKsound.cpp ..\optional\SDKwavefile.cpp Main.cpp
+         Main.cpp
+         SDKwavefile.cpp
+     1>..\optional\SDKwavefile.cpp(12): fatal error C1083: Cannot open include file: 'DXUT.h': No such file or directory
+         SDKsound.cpp
+     1>..\optional\SDKsound.cpp(11): fatal error C1083: Cannot open include file: 'DXUT.h': No such file or directory
+         SDKmisc.cpp
+     1>..\optional\SDKmisc.cpp(8): fatal error C1083: Cannot open include file: 'dxut.h': No such file or directory
+         SDKmesh.cpp
+     1>..\optional\SDKmesh.cpp(11): fatal error C1083: Cannot open include file: 'DXUT.h': No such file or directory
+         ImeUi.cpp
+     1>..\optional\ImeUi.cpp(6): fatal error C1083: Cannot open include file: 'dxut.h': No such file or directory
+         DXUTsettingsdlg.cpp
+     1>..\optional\DXUTsettingsdlg.cpp(8): fatal error C1083: Cannot open include file: 'DXUT.h': No such file or directory
+         DXUTres.cpp
+     1>..\optional\DXUTres.cpp(6): fatal error C1083: Cannot open include file: 'DXUT.h': No such file or directory
+         DXUTguiIME.cpp
+     1>..\optional\DXUTguiIME.cpp(6): fatal error C1083: Cannot open include file: 'DXUT.h': No such file or directory
+         DXUTgui.cpp
+     1>..\optional\DXUTgui.cpp(6): fatal error C1083: Cannot open include file: 'DXUT.h': No such file or directory
+         DXUTcamera.cpp
+     1>..\optional\DXUTcamera.cpp(6): fatal error C1083: Cannot open include file: 'DXUT.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT11\Core\DXUT Flygame.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.67

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FlyGame">
+</Property><Property Name="Solution File" Value="C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame.suo">
+</Property><Property Name="Date" Value="Thursday, August 12, 2010">
+</Property><Property Name="Time" Value="17:56 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FlyGame.sln" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame.sln">
+</Event><Event ErrorLevel="0" Project="" Source="FlyGame.suo" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame.suo">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\FlyGame.csproj" Description="Upgraded XNA Game Studio nested content projects to XNA Framework 4.0 and promoted to sibling project.">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\FlyGame.csproj" Description="Upgraded XNA Game Studio project to XNA Framework 4.0.">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\FlyGame.csproj" Description="Project file successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\FlyGame.csproj">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\FlyGame.csproj.user" Description="Project user file successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\FlyGame.csproj.user">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\Program.cs" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\Program.cs">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\Game1.cs" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\Game1.cs">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\QuadNode.cs" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\QuadNode.cs">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\Quadtree.cs" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\Quadtree.cs">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\FlyGame_TemporaryKey.pfx" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\FlyGame_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\Game.ico" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\Game.ico">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\GameThumbnail.png" Description="File successfully backed up as C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\Backup\FlyGame\GameThumbnail.png">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\FlyGame.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FlyGame" Source="FlyGame\FlyGame.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FlyGame.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FlyGame.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\FlyGame.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="FlyGame" Source="FlyGame\FlyGame.csproj" Description="Upgraded XNA Framework references to XNA Framework 4.0.">
+</Event></UpgradeLog>

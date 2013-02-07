@@ -1,0 +1,26 @@
+﻿Build started 1/18/2011 10:02:18 PM.
+     1>Project "D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT11\Core\DXUT_2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\DXUT.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Visual_Studio_2010\VC\bin\CL.exe /c /I..\..\\Core /I..\..\\Optional /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _LIB /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DXUT.cpp DXUTDevice11.cpp DXUTDevice9.cpp DXUTmisc.cpp  
+         DXUT.cpp
+         DXUTDevice11.cpp
+         DXUTDevice9.cpp
+         DXUTmisc.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Visual_Studio_2010\VC\bin\Lib.exe /OUT:"D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT11\Core\Debug\DXUT.lib" /NOLOGO Debug\DXUT.obj
+         Debug\DXUTDevice11.obj
+         Debug\DXUTDevice9.obj
+         Debug\DXUTmisc.obj
+         DXUT_2010.vcxproj -> D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT11\Core\Debug\DXUT.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\DXUT.unsuccessfulbuild".
+         Touching "Debug\DXUT.lastbuildstate".
+     1>Done Building Project "D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Samples\C++\DXUT11\Core\DXUT_2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.43

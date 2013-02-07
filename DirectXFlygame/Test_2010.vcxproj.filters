@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5376b26c-e863-4811-9410-a020e428a1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Heightmaps/Textures">
+      <UniqueIdentifier>{d2b2d183-c953-4067-9547-497ae864ef93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{e6b96ea4-4544-45da-bd08-caf702fc1d9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTDevice11.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTDevice9.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTDevice11.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTDevice9.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <None Include="Shaders.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\Testmap.raw">
+      <Filter>Heightmaps/Textures</Filter>
+    </None>
+    <None Include="D:\Downloads\heightmap.bmp">
+      <Filter>Heightmaps/Textures</Filter>
+    </None>
+    <None Include="ShadowMap.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\DirectXSamples\AdaptiveTessellationCS40\TessellatorCS40_ScatterIDCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\DirectXSamples\AdaptiveTessellationCS40\TessellatorCS40_TessellateIndicesCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\DirectXSamples\AdaptiveTessellationCS40\TessellatorCS40_TessellateVerticesCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\DirectXSamples\AdaptiveTessellationCS40\ScanCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\DirectXSamples\AdaptiveTessellationCS40\TessellatorCS40_common.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\DirectXSamples\AdaptiveTessellationCS40\TessellatorCS40_EdgeFactorCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\DirectXSamples\AdaptiveTessellationCS40\TessellatorCS40_NumVerticesIndicesCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmptyProject9.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scan.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tessellator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Quadtree.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandler.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Tessellator.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Scan.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Test.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

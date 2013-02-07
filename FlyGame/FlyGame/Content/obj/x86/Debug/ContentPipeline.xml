@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Effects.fx</Source>
+      <Name>Effects</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\Effects.xnb</Output>
+      <Time>2010-06-22T14:17:36.823-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Heightmap Plains.png</Source>
+      <Name>Heightmap Plains</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\Heightmap Plains.xnb</Output>
+      <Time>2010-04-26T18:41:46.38-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmapsmall.jpg</Source>
+      <Name>heightmapsmall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\heightmapsmall.xnb</Output>
+      <Time>2010-04-26T18:44:38.945-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmap.bmp</Source>
+      <Name>heightmap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\heightmap.xnb</Output>
+      <Time>2010-06-07T01:21:55.279-04:00</Time>
+    </Item>
+    <Item>
+      <Source>ground.jpg</Source>
+      <Name>ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\ground.xnb</Output>
+      <Time>2010-06-21T12:12:42.2858-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Texmap.bmp</Source>
+      <Name>Texmap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\Texmap.xnb</Output>
+      <Time>2010-06-22T15:29:28.605-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Grass.jpg</Source>
+      <Name>Grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\Grass.xnb</Output>
+      <Time>2010-06-22T13:10:45.995-04:00</Time>
+    </Item>
+    <Item>
+      <Source>moss-on-rocks-texture.jpg</Source>
+      <Name>moss-on-rocks-texture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\moss-on-rocks-texture.xnb</Output>
+      <Time>2010-06-22T13:55:57.247-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Spaceship.FBX</Source>
+      <Name>Spaceship</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\Spaceship.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Spaceship_0.xml</Key>
+        <Value>2010-08-14T16:44:46.3016-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Spaceship.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Spaceship_0.xml</Output>
+      <Time>2010-08-14T16:44:40.7966-04:00</Time>
+    </Item>
+    <BuildSuccessful>false</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-06-29T11:54:26-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-06-29T11:54:26-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-06-29T11:54:26-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-06-29T11:54:26-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-06-29T11:54:26-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-06-29T11:54:24-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-08-12T16:15:59.2438-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

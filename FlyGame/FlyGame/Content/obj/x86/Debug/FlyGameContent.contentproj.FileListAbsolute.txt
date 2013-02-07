@@ -1,0 +1,2 @@
+C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Akul Penugonda\Documents\Visual Studio 2008\Projects\FlyGame\FlyGame\Content\obj\x86\Debug\FlyGameContent.g.resources

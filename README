@@ -1,0 +1,9 @@
+///////////////////////////////////////////////////////////////////
+README for VideoGames Repository
+
+Akul Penugonda - sole author
+
+This Repository contains the C# game I made using the XNA library as well as the port that I made to C++ using the DirectX Library.
+The C# version is in the folder Flygame, while the DirectX version is in the aptly-named DirectXFlygame folder. 
+
+Note that these folders contain every single project file, including library files (such as those from DXUT) and some assets. For examples of code that I definitively wrote, check the CodeShowcases folder.

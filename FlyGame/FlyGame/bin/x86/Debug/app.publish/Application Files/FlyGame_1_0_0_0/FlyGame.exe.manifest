@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="FlyGame.exe" version="1.0.0.0" publicKeyToken="45a6e9243bcdfc7d" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Game.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FlyGame" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="FlyGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlyGame.exe" size="28160">
+      <assemblyIdentity name="FlyGame" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>No9aJMQeyqlMpkrCJfVmNF6EygY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Content\Effects.xnb" size="7246">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>90qe60O719fLHwSwowEZ85u1IyU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Grass.xnb" size="640085">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+DCYYHW3d1d945c20UwSCilSA9w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\ground.xnb" size="15486037">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yGMLoBq13bLI23sDVrrQ96FlnxA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Heightmap Plains.xnb" size="6553685">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VmKVgcmX1DRxXAK5KlfV2I93fPc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\heightmap.xnb" size="65621">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>G6rir8JcW31xWuFnmJvtlyPiOYQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\heightmapsmall.xnb" size="262229">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7WxPeDlYyUC2MRJwWgucUaq5giY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\moss-on-rocks-texture.xnb" size="3145813">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TeSbFrNp+tNr//LRssezNb86HAw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Texmap.xnb" size="6553685">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+1aOK31ub1Gu0Q3Q+bnOXnkdhOU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Game.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/y21PfwGnUAkwpPwwaFuIIyWENo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GameThumbnail.png" size="5734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>diNvdcDpDtGEMuMQIHpkKK3qVHc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AkulPenugond-PC\Akul Penugonda" issuerKeyHash="6ccd4869a646aacf211a197027e82d5a799244bc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>JLWfnk++mfhpf46YjGLEdjWoE9Q=</DigestValue></Reference></SignedInfo><SignatureValue>3obMdZpl0hs5MOa1dp4rEvpAXyBHD60tU2WM0URh7KvavUYE4ivQK6G5qwKS2s45CAJPBOkZw6yecknqjQSNLMTlsNocB1ynwsklf7yiyfp8VczBOKDrffNaajUBHnr1DRIfNTFRlclK0mtZ6eGfJMp25msLXXqYxbFprNyoX74=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4JWqidqOh7sWW/YkDZWlaXU8Hsbar5vdOgzpFsXplzddKquIeOLJRo0f5NhKS7RrpInbg5Ue16OipNf4VcfVLIej9tUTAeAW35owHymrD+qIhn5G095gc7l/BiWcPNWuDwXf4QPsA23DAlaff0q0nXLYS4vrp/6tLpWh5+CR/VE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d413a83576c4628c988e7f69f899be4f9e9fb524" Description="" Url=""><as:assemblyIdentity name="FlyGame.exe" version="1.0.0.0" publicKeyToken="45a6e9243bcdfc7d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AkulPenugond-PC\Akul Penugonda</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+T6ltiFzAaXvQ0oDS+Kk2+EM5M8=</DigestValue></Reference></SignedInfo><SignatureValue>TFFv3EQnWZqHJlWwKun+jbZw1GKgw7vhhLekQ9JVa37xmLciI4wLwFxWfQYwR0zEL4xTMaPyw/2Sa960ZhX1bIQtwReDVTAtwNBUQnjVW6cT5hcOjJwS7MHij0xG5wjHhMfBEKSIUiqswV+m7dAV9VlwmQFNYddRLT6jwCA/t4U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4JWqidqOh7sWW/YkDZWlaXU8Hsbar5vdOgzpFsXplzddKquIeOLJRo0f5NhKS7RrpInbg5Ue16OipNf4VcfVLIej9tUTAeAW35owHymrD+qIhn5G095gc7l/BiWcPNWuDwXf4QPsA23DAlaff0q0nXLYS4vrp/6tLpWh5+CR/VE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQIYAbxIqUF6VHMhiQ8ayyIDANBgkqhkiG9w0BAQUFADBHMUUwQwYDVQQDHjwAQQBrAHUAbABQAGUAbgB1AGcAbwBuAGQALQBQAEMAXABBAGsAdQBsACAAUABlAG4AdQBnAG8AbgBkAGEwHhcNMTAwNzEwMDUwNTEwWhcNMTEwNzEwMTEwNTEwWjBHMUUwQwYDVQQDHjwAQQBrAHUAbABQAGUAbgB1AGcAbwBuAGQALQBQAEMAXABBAGsAdQBsACAAUABlAG4AdQBnAG8AbgBkAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOCVqonajoe7Flv2JA2VpWl1PB7G2q+b3ToM6RbF6Zc3XSqriHjiyUaNH+TYSku0a6SJ24OVHtejoqTX+FXH1SyHo/bVEwHgFt+aMB8pqw/qiIZ+RtPeYHO5fwYlnDzVrg8F3+ED7ANtwwJWn39KtJ1y2EuL66f+rS6Voefgkf1RAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAqQe/BAaRBi4Nx+gYzaBVi5jQOEDFOGgxtHHdfgh4E2CrRkjqWvd1UsyGni1fs+GWwF0OBxtTmGuM9JOmXfXxfz3I4pHkBn5cVdoa8fxHrw/QwAIeT4TI1lpc0KWQkUXUH3BmYFmBxGIPxFOC07Ci3UuUeTn6PZt+o9441/lqRsE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
